@@ -4,8 +4,8 @@ import cookieParser from 'cookie-parser';
 
 
 const app = express();
-import myRouter from './library.js';
-import PostRouter from './CreateBook.js';
+import myRouter from './api/library.js';
+import PostRouter from './api/CreateBook.js';
 
 app.use(cors({
      origin: 'http://localhost:5000', 
